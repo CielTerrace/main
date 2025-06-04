@@ -21,7 +21,7 @@
             <div class="item"><span>Doppio</span><span>$3.5</span></div>
             <div class="item"><span>Americano M / L</span><span>$3 / $4</span></div>
             <div class="item"><span>American M / L</span><span>$3 / $4</span></div>
-            <div class="item"><span>Latte (vanilla, caramel, hazelnut…) M / L</span><span>$4 / $5</span></div>
+            <div class="item"><span>Latte (vanilla, caramel…) M / L</span><span>$4 / $5</span></div>
             <div class="item"><span>Cinnamon Smoking Latte</span><span>$6</span></div>
             <div class="item"><span>Piccolo</span><span>$4</span></div>
             <div class="item"><span>Cortado</span><span>$4</span></div>
@@ -194,6 +194,21 @@
 </html>
 
 <style>
+    @font-face {
+        font-family: 'Frunchy';
+        src: url('/fonts/Frunchy.otf') format('opentype');
+        font-weight: normal;
+        font-style: normal;
+    }
+    
+    @font-face {
+        font-family: 'Funky Signature';
+        src: url('/fonts/Funky%20Signature.otf') format('opentype');
+        /* %20 for space */
+        font-weight: normal;
+        font-style: normal;
+    }
+    
     body {
         margin: 0;
         padding: 0;
@@ -229,7 +244,7 @@
     }
     
     .section h1 {
-        font-family: 'Frunchy', 'sans-serif';
+        font-family: 'Funky Signature', sans-serif;
         margin-top: 0;
         color: white;
         border-bottom: 1px solid white;
@@ -237,14 +252,14 @@
     }
     
     .section h2 {
-        font-family: 'Frunchy', 'sans-serif';
+        font-family: 'Funky Signature', sans-serif;
         padding-top: 2.3rem;
     }
     
     .item {
-        font-family: 'funky', 'sans-serif';
+        font-family: 'Frunchy', sans-serif;
         margin: 0.25rem 0;
-        font-size: 1.1rem;
+        font-size: 1.35rem;
         display: flex;
         justify-content: space-between;
     }
